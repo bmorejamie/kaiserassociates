@@ -5,6 +5,10 @@ $icon-font-path: '../fonts/';
 // endbower
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600,400italic);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+
+@import "rw";
+
+
 $font-base: 'Open Sans', sans-serif;
 
 
@@ -81,7 +85,7 @@ video#bgvid {
       padding: 200px 0 150px;
     }
   }
-  h1 {
+  h1#home {
     font-size: 98px;
     font-weight: 300;
     &:after {
@@ -179,12 +183,6 @@ video#bgvid {
     background-color: rgba(22, 21, 22, 0);
     border-radius: 0;
     border-color: transparent;
-    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-      max-width: 750px;
-    }
-    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-      max-width: 970px;
-    }
     .navbar-collapse {
       border-color: transparent;
     }
@@ -252,12 +250,7 @@ video#bgvid {
     .navbar-brand {
       background: url('../images/logo-reversed.png') no-repeat;
     }
-    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-      max-width: 750px;
-    }
-    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-      max-width: 970px;
-    }
+
 }
 #nav.nav-bkg-white {
   background-color: white;
