@@ -4,10 +4,11 @@
   color: white;
   text-align: center;
   padding: 100px 0;
-  h2 {
+  h1 {
     font-size: 65px;
     margin: 25px 0 110px;
   }
+
   .btn {
     font-family: 'Oswald', sans-serif;
     border: 1px solid white;
@@ -30,6 +31,12 @@
   position: relative;
   margin: 90px auto 40px;
   padding: 20px;
+  h2#tag {
+    padding: 25px 0 0;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+  }
 }
 .rw-sentence{
   margin: 0 auto;
